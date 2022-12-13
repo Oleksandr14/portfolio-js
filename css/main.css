@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding-top: 67px;
 
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
@@ -63,6 +64,10 @@ body {
 /*nav*/
 
 .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 20px 0;
     background-color: var(--dark-bg);
     border-bottom: 1px solid var(--dark-border);
@@ -415,6 +420,10 @@ body {
 }
 
 @media (max-width: 620px) {
+    
+ body {
+  padding-top: 110px;
+    }
 
 /*general*/
 .section {
